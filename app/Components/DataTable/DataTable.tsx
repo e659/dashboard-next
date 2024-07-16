@@ -11,10 +11,10 @@ type Props = {
 };
 
 const DataTable = (props: Props) => {
-  const handleDelete = (id: any) => {
+  // const handleDelete = (id: any) => {
  
  
-  };
+  // };
 
   const actionColumn: GridColDef = {
     field: "action",
@@ -32,7 +32,7 @@ const DataTable = (props: Props) => {
               height={50}
             />
           </Link>
-          <div className="delete" onClick={() => handleDelete(params.row.id)}>
+          <div className="delete" >
             <Image
               className="mx-2"
               src={deleteIcon}

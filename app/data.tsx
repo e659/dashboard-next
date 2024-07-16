@@ -706,26 +706,32 @@ export const singleProduct = {
   },
   activities: [
     {
+      id:1,
       text: "John Doe purchased Playstation 5 Digital Edition",
       time: "3 day ago",
     },
     {
+      id:2,
       text: "Jane Doe added Playstation 5 Digital Edition into their wishlist",
       time: "1 week ago",
     },
     {
+      id:3,
       text: "Mike Doe purchased Playstation 5 Digital Edition",
       time: "2 weeks ago",
     },
     {
+      id:4,
       text: "Anna Doe reviewed the product",
       time: "1 month ago",
     },
     {
+      id:5,
       text: "Michael Doe added Playstation 5 Digital Edition into their wishlist",
       time: "1 month ago",
     },
     {
+      id:6,
       text: "Helen Doe reviewed the product",
       time: "2 months ago",
     },

@@ -78,7 +78,7 @@ import {
           {props.activities && (
             <ul>
               {props.activities.map((activity) => (
-                <li key={activity.text}>
+                <li key={activity.id}>
                   <div>
                     <p>{activity.text}</p>
                     <time>{activity.time}</time>

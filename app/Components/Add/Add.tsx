@@ -1,3 +1,4 @@
+"use client";
 import { GridColDef } from "@mui/x-data-grid";
 import "./add.scss";
 // import { useMutation, useQueryClient } from "@tanstack/react-query";
@@ -10,7 +11,7 @@ type Props = {
 
 const Add = (props: Props) => {
 
-
+console.log(props.columns)
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -30,7 +31,7 @@ const Add = (props: Props) => {
           {props.columns
             .filter((item) => item.field !== "id" && item.field !== "img")
             .map((column) => (
-              <div className="item">
+              <div className="item" key={column.id}>
                 <label>{column.headerName}</label>
                 <input type={column.type} placeholder={column.field} />
               </div>

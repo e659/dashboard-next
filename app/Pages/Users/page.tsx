@@ -8,8 +8,9 @@ import { userRows } from "../../data";
 // import { useQuery } from "@tanstack/react-query";
 
 const columns: GridColDef[] = [
-  { field: "id", headerName: "ID", width: 90 },
+  {id:1, field: "id", headerName: "ID", width: 90 },
   {
+    id:2,
     field: "img",
     headerName: "Avatar",
     width: 100,
@@ -18,36 +19,42 @@ const columns: GridColDef[] = [
     },
   },
   {
+    id:3,
     field: "firstName",
     type: "string",
     headerName: "First name",
     width: 150,
   },
   {
+    id:4,
     field: "lastName",
     type: "string",
     headerName: "Last name",
     width: 150,
   },
   {
+    id:5,
     field: "email",
     type: "string",
     headerName: "Email",
     width: 200,
   },
   {
+    id:6,
     field: "phone",
     type: "string",
     headerName: "Phone",
     width: 200,
   },
   {
+    id:7,
     field: "createdAt",
     headerName: "Created At",
     width: 200,
     type: "string",
   },
   {
+    id:8,
     field: "verified",
     headerName: "Verified",
     width: 150,

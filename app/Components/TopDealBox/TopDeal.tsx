@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import { topDealUsers } from "../../data";
 import "./TopDeal.scss";
 const TopDealBox = () => {
@@ -12,7 +12,14 @@ const TopDealBox = () => {
             key={user.id}
           >
             <div className="user d-flex ">
-              <img src={user.img} alt=""  />
+            <Image
+              className="mx-2"
+              src={user.img}
+              alt="View"
+              width={50}
+              height={50}
+            />
+            
               <div className="userTexts d-flex  flex-column">
                 <span className="username">{user.username}</span>
                 <span className="email">{user.email}</span>

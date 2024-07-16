@@ -11,7 +11,7 @@ type Props = {
 
 const Add = (props: Props) => {
 
-console.log(props.columns)
+// console.log(props.columns)
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

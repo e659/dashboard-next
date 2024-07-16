@@ -326,7 +326,8 @@ export const barChartBoxVisit = {
 export const userRows = [
   {
     id: 1,
-    img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+   
+     img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     lastName: "Hubbard",
     firstName: "Eula",
     email: "kewez@@gmail.com",

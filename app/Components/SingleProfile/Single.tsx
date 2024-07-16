@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import {
     Legend,
     Line,
@@ -29,7 +30,7 @@ import {
         <div className="view">
           <div className="info">
             <div className="topInfo">
-              {props.img && <img src={props.img} alt="" />}
+              {props.img && <Image src={props.img} alt="" />}
               <h1>{props.title}</h1>
               <button className="btn btn-light">Update</button>
             </div>

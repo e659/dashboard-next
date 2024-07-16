@@ -5,7 +5,7 @@ import "./add.scss";
 
 type Props = {
   slug: string;
-  columns: GridColDef[];
+  columns: any[];
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
